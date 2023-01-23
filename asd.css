@@ -4,6 +4,10 @@
     grid-template-rows: repeat(6, 1fr);
     grid-column-gap: 0px;
     grid-row-gap: 0px;
+    width: 500px;
+    height: 600px;
+    margin-left: auto;
+    margin-right: auto;
     }
     
     .div1 { grid-area: 1 / 2 / 2 / 3; }
@@ -14,5 +18,17 @@
     .div6 { grid-area: 6 / 2 / 7 / 3; }
     .div7 { grid-area: 1 / 1 / 7 / 2; }
 .img {
+    width: 250px;
+    height: 150px;
+}
+.hossz{
     width: 300px;
+}
+.parent div img{
+    box-shadow: 5px 5px 5px black;
+    border-radius: 10px;
+    
+}
+.parent div{
+    box-shadow: 5px 5px 5px black;
 }
