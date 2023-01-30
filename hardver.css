@@ -1,3 +1,6 @@
+body{
+    background-color: lightgray;
+}
 #content{
     padding-left: 5vw;
     padding-top: 3vh;
@@ -5,7 +8,7 @@
     padding-right: 5vw;
     background-color: lightgray;
 }
-td{
+#personal-table td, #network-table td{
     border: 1px;
     border-style: none;
     box-shadow: 2px 2px 5px 1.4px rgba(0, 0, 0, 0.2);

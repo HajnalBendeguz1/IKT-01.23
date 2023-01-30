@@ -52,3 +52,11 @@ body{
     padding: 1vh 1vw;
 }
 
+.img-restrict{
+    /* display: none; */
+    max-height: 30vh;
+}
+.container-table{
+    margin-left: auto;
+    margin-right: auto;
+}
