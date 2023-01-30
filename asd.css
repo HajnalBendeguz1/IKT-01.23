@@ -63,17 +63,23 @@
     background-color: #333;
     text-align: center;
   }
-  li{
+#header li{
     /* float: left; */
     display: inline-block;
-  }
-  li a{
+}
+#header li a{
     display: block;
     color: white;
     text-align: center;
     padding: 2vh 3vw;
     text-decoration: none;
-  }
-  li a:hover{
+}
+#header li a:hover{
     background-color: #111;
-  }
+}
+body{
+    padding: 0;
+}
+#content{
+    padding: 1vh 1vw;
+}
