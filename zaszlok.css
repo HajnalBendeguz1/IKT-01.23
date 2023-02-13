@@ -1,5 +1,6 @@
 .zaszlok{
     display: block;
+    float: right;
   width: 10%;
   height: 80px;
   border: 2px solid black;
