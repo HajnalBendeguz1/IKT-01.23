@@ -25,6 +25,7 @@
     background-color: #111;
 }
 #header img{
+    all: unset;
     max-height: 1.5vh;
     margin: auto;
 }
