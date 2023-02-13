@@ -1,11 +1,13 @@
 body{
     background-color: lightgray;
+    padding: 0;
+    margin: 0;
 }
 #content{
-    padding-left: 5vw;
+    padding-left: 20vw;
     padding-top: 3vh;
     padding-bottom: 3vh;
-    padding-right: 5vw;
+    padding-right: 20vw;
     background-color: lightgray;
 }
 #personal-table td, #network-table td{
@@ -17,4 +19,20 @@ body{
 }
 .alkatresz-nev{
     text-align: center;
+}
+.img-restrict{
+    /* display: none; */
+    max-height: 30vh;
+    margin-left: 0;
+    margin-right: auto;
+}
+.container-table{
+    margin-left: 0;
+    margin-right: 0;
+    width: 100%;
+}
+
+#network-table, #personal-table{
+    margin-right: 0;
+    margin-left: auto;
 }
