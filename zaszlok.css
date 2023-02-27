@@ -1,0 +1,16 @@
+.zaszlok{
+    display: block;
+    float: right;
+  width: 10%;
+  height: 80px;
+  border: 2px solid black;
+  border-radius: 10px;
+  box-shadow: 5px 5px 10px gray;
+  transition: transform 0.3s ease-in-out;
+  margin-right: 1vw;
+  margin-top: 1vh;
+}
+.zaszlok:hover{
+    transform: scale(1.1);
+  cursor: pointer;
+}
