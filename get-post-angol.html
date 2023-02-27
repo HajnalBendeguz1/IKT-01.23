@@ -67,21 +67,20 @@
     <!-- ######### CONTENT #########-->
     <div><a href="get-post.html"><img src="mzaszlo.png" alt="Switch to Hungarian" title="Switch to English" class="zaszlok"></a></div>
     <div id="content">
-        <h1>TESTELÉS</h1>
-        <p>A HTTP és HTTPS kérés-válasz protokolként működik kliens és szerver között.
-           Állapotnélküli protokolok, ami azt jelenti, hogy minden egyes adatcserét külön eseményként kezel. A HTTPS SSL-t használ az adatok biztonságosabb továbbítására.
+        <p>The HTTP and HTTPS work as request-response protocols between client and server.
+           They are stateless protocols, which means, that every data-transfer is treated as a separate event. HTTPS uses SSL for a more secure data-transfer.
         </p>
         <p align="center"><img src="http_to_https.jpg" alt="http+ssl=https" width="100%"></p>
         <div style="height: 5vh;" class="empty-space"></div>
-        <p>A kettő leggyakrabban használt http metódus a GET és a POST.<br>A kettő között jelentős különbség van és más más funkcionalitást töltenek be.</p>
+        <p>The two most used HTTP method are GET and POST.<br>They serve different functionality and there's a significant differences between them.</p>
         <table>
             <tr><td>GET</td><td>POST</td></tr>
-            <tr><td>Adatok Cache-ben elmentve maradnak, böngésző előzményeiben megtalálhatóak</td><td>Adatok nincsenek mentve se cache-ben, se előzményekben</td></tr>
-            <tr><td>Adatmentés miatt csak adatlekérésre használjuk<br>küldött adatok az urlben megtalálhatóak</td><td>Adatküldésre, Módosításra használjuk</td></tr>
-            <tr><td>Csak ASCII karakterek használatára képes és azt is 2048 karakter erejéig</td><td>nincs korlátozás</td></tr>
+            <tr><td>Data are saved in chache, they can be found in browser history</td><td>data are not saved in cache, nor browser history.</td></tr>
+            <tr><td>Because of data saving it is only used for data requests<br>sent data can be seen in the url.</td><td>used for modification and sending of data</td></tr>
+            <tr><td>Only capable of using ASCII characters at a maximum of 2048 character length</td><td>no restrictions</td></tr>
         </table>
         <div style="height: 5vh;" class="empty-space"></div>
-        <p>Személyes adatokat, mint jelszavakat, e-mail címeket vagy bármit ami bizalmas, sütikben tárolunk.</p>
+        <p>Personal Information, like passwords, e-mail addresses or any other confidential data are stored in cookies.</p>
     </div>
     <!-- ######### CONTENT #########-->
 </body>
