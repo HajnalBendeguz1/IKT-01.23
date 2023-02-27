@@ -2,6 +2,7 @@ body{
     background-color: lightgray;
     padding: 0;
     margin: 0;
+    max-width: 100%;
 }
 #content{
     padding-left: 20vw;
@@ -25,6 +26,9 @@ body{
     max-height: 30vh;
     margin-left: 0;
     margin-right: auto;
+}
+@media screen and (max-width: 650px){
+    .img-restrict{ display: none;}
 }
 .container-table{
     margin-left: 0;
