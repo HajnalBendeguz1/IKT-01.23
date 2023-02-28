@@ -62,41 +62,9 @@
 </head>
 <body>
     <!-- ######### HEADER ######### --> 
-    <link rel="stylesheet" href="header.css">
-    <div id="header-container">
-        <ul id="header">
-            <li class="dropdown">
-                <a href="./index-angol.html" class="dropbtn">project</a>
-                <div class="dropdown-content">
-                    <a href="./információ angol.html">Information gathering</a>
-                    <a href="./harver-angol.html">Hardver</a>
-                    <a href="./topológia-angol.html">Topology</a>
-                    <a href="./dokumentáció-angol.html">Documentation</a>
-                    <a href="./karbantartás-angol.html">Maintenance</a>
-                    <a href="./tervezés-angol.html">Plan</a>
-                </div>
-            </li>
-            <li class="dropdown">
-                <a href="" class="dropbtn">comparisons</a>
-                <div class="dropdown-content">
-                    <a href="">router comparison</a>
-                    <a href="">switch comparison</a>
-                    <a href="mlswitchek.html">multilayer switch comparison</a>
-                </div>
-            </li>
-            <li class="dropdown">
-                <a href="" class="dropbtn">other content</a>
-                <div class="dropdown-content">
-                    <a href="get-post-angol.html">GET - POST</a>
-                    <a href="">Lorem ipsum dolor sit amet</a>
-                    <a href="ftp-sftp.html">FTP, TFTP</a>
-                </div>
-            </li>
-            <li><a href="../"><img src="exit.png" alt="Vissza a fő index oldalra"></a></li>
-        </li>
-    </div>
+    <?php $header = file_get_contents("./header-angol.html"); echo $header; ?>
     <!-- ######### HEADER ######### -->
-	<div><a href="tervezés.html"><img src="mzaszlo.png" alt="English" title="English" class="zaszlok"></a></div>
+	<div><a href="tervezés.php"><img src="mzaszlo.png" alt="English" title="English" class="zaszlok"></a></div>
 	<h1>Plan</h1>
 	<p>I used a program called Tinkercad to demonstrate 3D design. During the design process, I paid attention to the smallest details in order to achieve a perfect building on a large scale. Here you can see the basic concept, which can be zoomed out 1000 times <img src="k.png" alt="blueprint"> I also used Tinkercad to model the physical location of the devices. I designed the devices freehand.<img src="j.jpg" alt="eszközök">
     </p>
