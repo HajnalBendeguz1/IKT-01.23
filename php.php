@@ -40,6 +40,7 @@
 			padding: 0 0 0 20px;
 			list-style: square;
 			text-shadow: 1px 1px 2px #ccc;
+            list-style-type: none;
 		}
 		a {
 			color: #0080ff;
@@ -89,39 +90,7 @@
 	</style>
 </head>
 <body>
-	<link rel="stylesheet" href="header.css">
-    <div id="header-container">
-      <ul id="header">
-          <li class="dropdown">
-              <a href="./index-angol.html" class="dropbtn">project</a>
-              <div class="dropdown-content">
-                  <a href="./információ angol.html">Információ gyűjtés</a>
-                  <a href="./harver-angol.html">Hardver</a>
-                  <a href="./topológia-angol.html">Topológia</a>
-                  <a href="./dokumentáció-angol.html">Dokumentáció</a>
-                  <a href="./karbantartás-angol.html">Karbantartás</a>
-                  <a href="./tervezés-angol.html">Tervezés</a>
-              </div>
-          </li>
-          <li class="dropdown">
-              <a href="" class="dropbtn">összehasonlítások</a>
-              <div class="dropdown-content">
-                  <a href="">router összehasonlítás</a>
-                  <a href="">switch összehasonlítás</a>
-                  <a href="mlswitchek.html">multilayer switch összehasonlítás</a>
-              </div>
-          </li>
-          <li class="dropdown">
-              <a href="" class="dropbtn">egyéb tartalom</a>
-              <div class="dropdown-content">
-                  <a href="get-post-angol.html">GET - POST</a>
-                  <a href="">Lorem ipsum dolor sit amet</a>
-                  <a href="ftp-sftp.html">FTP, TFTP</a>
-              </div>
-          </li>
-          <li><a href="../"><img src="exit.png" alt="Vissza a fő index oldalra"></a></li>
-      </li>
-  </div>
+<?php $header = file_get_contents("./header.html"); echo $header; ?>
 	<h1 class="overlay h1">PHP Weblap</h1>
 	<p class="overlay p">A PHP (Hypertext Preprocessor) egy szerveroldali szkriptnyelv, amelyet dinamikus weboldalak létrehozására használnak. Ez az egyik legnépszerűbb programozási nyelv, amelyet webfejlesztéshez használnak.</p>
 	<p class="overlay p">A PHP kód lefut a szerveren, és az eredményül kapott HTML kimenet elküldésre kerül a kliens webböngészőjébe. Ez lehetővé teszi a dinamikus tartalom generálását a felhasználói bevitel vagy más változók alapján.</p>

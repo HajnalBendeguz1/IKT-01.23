@@ -52,41 +52,9 @@
   </head>
   <body>
     <!-- ######### HEADER ######### -->
-    <link rel="stylesheet" href="header.css">
-    <div id="header-container">
-      <ul id="header">
-          <li class="dropdown">
-              <a href="./index.html" class="dropbtn">projekt</a>
-              <div class="dropdown-content">
-                  <a href="./információ.html">Információ gyűjtés</a>
-                  <a href="./harver.html">Hardver</a>
-                  <a href="./topológia.html">Topológia</a>
-                  <a href="./dokumentáció.html">Dokumentáció</a>
-                  <a href="./karbantartás.html">Karbantartás</a>
-                  <a href="./tervezés.html">Tervrajz</a>
-              </div>
-          </li>
-          <li class="dropdown">
-              <a href="" class="dropbtn">összehasonlítások</a>
-              <div class="dropdown-content">
-                  <a href="">router hasonlítás</a>
-                  <a href="">switch hasonlítás</a>
-                  <a href="mlswitchek.html">multilayer switch hasonlítás</a>
-              </div>
-          </li>
-          <li class="dropdown">
-              <a href="" class="dropbtn">más tartalom</a>
-              <div class="dropdown-content">
-                  <a href="get-post.html">GET - POST</a>
-                  <a href="">Lorem ipsum dolor sit amet</a>
-                  <a href="ftp-sftp.html">FTP, TFTP</a>
-              </div>
-          </li>
-          <li><a href="../"><img src="exit.png" alt="Vissza a fő index oldalra"></a></li>
-      </li>
-  </div>
+    <?php $header = file_get_contents("./header.html"); echo $header; ?>
   <!-- ######### HEADER ######### -->
-    <div><a href="topológia-angol.html"><img src="azaszlo.png" alt="English" title="English" class="zaszlok"></a></div>
+    <div><a href="topológia-angol.php"><img src="azaszlo.png" alt="English" title="English" class="zaszlok"></a></div>
     <div id="content">
       <h1>Topológia</h1>
       <p>A topológia felépítését a cég szükségletei alapján készítettük el.</p>
