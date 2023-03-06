@@ -26,28 +26,9 @@
   </head>
   <body>
     <!-- ######### HEADER ######### -->
-    <link rel="stylesheet" href="header.css">
-    <div id="header-container">
-        <ul id="header">
-            <li class="dropdown">
-                <a href="./index.html" class="dropbtn">projekt</a>
-                <div class="dropdown-content">
-                    <a href="./információ.html">Információ gyűjtés</a>
-                    <a href="./harver.html">Hardver</a>
-                    <a href="./topológia.html">Topológia</a>
-                    <a href="./dokumentáció.html">Dokumentáció</a>
-                    <a href="./karbantartás.html">Karbantartás</a>
-                    <a href="./tervezés.html">Tervrajz</a>
-                </div>
-            </li>
-            <li><a href="">router hasonlítás</a></li>
-            <li><a href="">switch hasonlítás</a></li>
-            <li><a href="mlswitchek.html">multilayer switch hasonlítás</a></li>
-            <li><a href="../"><img src="exit.png" alt="Vissza a fő index oldalra"></a></li>
-        </li>
-    </div>
-    <!-- ######### HEADER ######### -->
-    <div><a href="karbantartás-angol.html"><img src="azaszlo.png" alt="English" title="English" class="zaszlok"></a></div>
+    <?php $header = file_get_contents("./header.html"); echo $header; ?>
+  <!-- ######### HEADER ######### -->
+    <div><a href="karbantartás-angol.php"><img src="azaszlo.png" alt="English" title="English" class="zaszlok"></a></div>
     <h1>Karbantartás</h1>
     <p>A project telepítés részénél a megbízó cég rendszergazdáját is bevonjuk a folyamatba, hogy tisztában legyen a hálózat felépítésével. A telepítés végeztével körbe járunk vele az egész hálózatot hogy képes legyen az esetleges apróbb hibák elhárítására.</p>
     <p>Havonta egyszer ajánljuk a számítógépek portalanítását valamint a frissítések telepítését.</p>

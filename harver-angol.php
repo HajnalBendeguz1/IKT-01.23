@@ -10,27 +10,8 @@
     <link rel="stylesheet" href="zaszlok.css">
 </head>
 <body>
-    <!-- ######### HEADER ######### -->
-    <link rel="stylesheet" href="header.css">
-    <div id="header-container">
-        <ul id="header">
-            <li class="dropdown">
-                <a href="./index-angol.html" class="dropbtn">project</a>
-                <div class="dropdown-content">
-                    <a href="./információ angol.html.html">Information gathering</a>
-                    <a href="./harver-angol.html">Hardver</a>
-                    <a href="./topológia-angol.html">Topology</a>
-                    <a href="./dokumentáció-angol.html">Documentation</a>
-                    <a href="./karbantartás-angol.html">Maintenance</a>
-                    <a href="./tervezés-angol.html">Plan</a>
-                </div>
-            </li>
-            <li><a href="">router comparison</a></li>
-            <li><a href="">switch comparison</a></li>
-            <li><a href="">transfer comparison</a></li>
-            <li><a href="../"><img src="exit.png" alt="Back to main index"></a></li>
-        </li>
-    </div>
+    <!-- ######### HEADER ######### --> 
+    <?php $header = file_get_contents("./header-angol.html"); echo $header; ?>
     <!-- ######### HEADER ######### -->
 
     <!-- ######### CONTENT #########-->

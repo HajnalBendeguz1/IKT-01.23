@@ -1,6 +1,8 @@
 <!DOCTYPE html>
 <html>
 <head>
+	<meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+	<meta charset="UTF-8">
 	<title>Cisco 3560 vs 3650 Switch Összehasonlitás</title>
 	<style>
 		body {
@@ -100,25 +102,9 @@
 </head>
 <body>
 	<link rel="stylesheet" href="header.css">
-    <div id="header-container">
-        <ul id="header">
-            <li class="dropdown">
-                <a href="./index.html" class="dropbtn">projekt</a>
-                <div class="dropdown-content">
-                    <a href="./információ.html">Információ gyűjtés</a>
-                    <a href="./harver.html">Hardver</a>
-                    <a href="./topológia.html">Topológia</a>
-                    <a href="./dokumentáció.html">Dokumentáció</a>
-                    <a href="./karbantartás.html">Karbantartás</a>
-                    <a href="./tervezés.html">Tervrajz</a>
-                </div>
-            </li>
-            <li><a href="">router hasonlítás</a></li>
-            <li><a href="">switch hasonlítás</a></li>
-            <li><a href="mlswitchek.html">multilayer switch hasonlítás</a></li>
-            <li><a href="../"><img src="exit.png" alt="Vissza a fő index oldalra"></a></li>
-        </li>
-    </div>
+    <!-- ######### HEADER ######### -->
+    <?php $header = file_get_contents("./header.html"); echo $header; ?>
+    <!-- ######### HEADER ######### -->
 	<h1>Cisco 3560 vs 3650 Switch Összehasonlitás</h1>
 	<table>
 		<tr>

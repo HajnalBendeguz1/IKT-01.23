@@ -29,50 +29,19 @@
 </style>
 <body>
     <!-- ######### HEADER ######### -->
-    
-    <div id="header-container">
-        <ul id="header">
-            <li class="dropdown">
-                <a href="./index-angol.html" class="dropbtn">project</a>
-                <div class="dropdown-content">
-                    <a href="./információ angol.html">Information gathering</a>
-                    <a href="./harver-angol.html">Hardver</a>
-                    <a href="./topológia-angol.html">Topology</a>
-                    <a href="./dokumentáció-angol.html">Documentation</a>
-                    <a href="./karbantartás-angol.html">Maintenance</a>
-                    <a href="./tervezés-angol.html">Plan</a>
-                </div>
-            </li>
-            <li class="dropdown">
-                <a href="" class="dropbtn">comparisons</a>
-                <div class="dropdown-content">
-                    <a href="">router comparison</a>
-                    <a href="">switch comparison</a>
-                    <a href="">transfer comparison</a>
-                </div>
-            </li>
-            <li class="dropdown">
-                <a href="" class="dropbtn">other content</a>
-                <div class="dropdown-content">
-                    <a href="get-post-angol.html">GET - POST</a>
-                    <a href="">Lorem ipsum dolor sit amet</a>
-                    <a href="">Lorem ipsum dolor sit amet</a>
-                </div>
-            </li>
-            <li><a href="../"><img src="exit.png" alt="Vissza a fő index oldalra"></a></li>
-        </li>
-    </div>
+    <?php $header = file_get_contents("./header.html"); echo $header; ?>
     <!-- ######### HEADER ######### -->
 
     <!-- ######### CONTENT #########-->
-    <div><a href="get-post.html"><img src="mzaszlo.png" alt="Switch to Hungarian" title="Switch to English" class="zaszlok"></a></div>
+    <div><a href="get-post-angol.php"><img src="azaszlo.png" alt="Switch to English" title="Switch to English" class="zaszlok"></a></div>
     <div id="content">
-        <h1>TESTELÉS</h1>
+        <h1>HTTP és HTTPS</h1>
         <p>A HTTP és HTTPS kérés-válasz protokolként működik kliens és szerver között.
            Állapotnélküli protokolok, ami azt jelenti, hogy minden egyes adatcserét külön eseményként kezel. A HTTPS SSL-t használ az adatok biztonságosabb továbbítására.
         </p>
         <p align="center"><img src="http_to_https.jpg" alt="http+ssl=https" width="100%"></p>
         <div style="height: 5vh;" class="empty-space"></div>
+        <h1>GET és POST</h1>
         <p>A kettő leggyakrabban használt http metódus a GET és a POST.<br>A kettő között jelentős különbség van és más más funkcionalitást töltenek be.</p>
         <table>
             <tr><td>GET</td><td>POST</td></tr>

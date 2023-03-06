@@ -1,6 +1,8 @@
 <!DOCTYPE html>
 <html>
 <head>
+	<meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+	<meta charset="UTF-8">
 	<title>FTP and SFTP</title>
 	<style>
 		body {
@@ -77,6 +79,9 @@ a:hover {
 	</style>
 </head>
 <body>
+	<!-- ######### HEADER ######### -->
+	<?php $header = file_get_contents("./header.html"); echo $header; ?>
+	<!-- ######### HEADER ######### -->
 	<h2>FTP</h2>
 	<p>A File Transfer Protocol, vagy rövid nevén FTP TCP/IP hálózatokon mint amilyen az internet is történő állományátvitelre szolgáló szabvány.
         Az FTP kapcsolat ügyfél/kiszolgáló alapú, vagyis szükség van egy kiszolgáló- (=szerver) és egy ügyfélprogramra (=kliens). Elterjedt protokoll, a legtöbb modern operációs rendszerhez létezik FTP-szerver és kliens program, sok webböngésző is képes FTP-kliensként működni.

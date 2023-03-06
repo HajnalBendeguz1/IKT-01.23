@@ -10,28 +10,7 @@
     <link rel="stylesheet" href="zaszlok.css">
 </head>
 <body>
-    <!-- ######### HEADER ######### -->
-    
-    <div id="header-container">
-        <ul id="header">
-            <li class="dropdown">
-                <a href="./index.html" class="dropbtn">projekt</a>
-                <div class="dropdown-content">
-                    <a href="./információ.html">Információ gyűjtés</a>
-                    <a href="./harver.html">Hardver</a>
-                    <a href="./topológia.html">Topológia</a>
-                    <a href="./dokumentáció.html">Dokumentáció</a>
-                    <a href="./karbantartás.html">Karbantartás</a>
-                    <a href="./tervezés.html">Tervrajz</a>
-                </div>
-            </li>
-            <li><a href="">router hasonlítás</a></li>
-            <li><a href="">switch hasonlítás</a></li>
-            <li><a href="mlswitchek.html">multilayer switch hasonlítás</a></li>
-            <li><a href="../"><img src="exit.png" alt="Vissza a fő index oldalra"></a></li>
-        </li>
-    </div>
-    <!-- ######### HEADER ######### -->
+<?php $header = file_get_contents("./header.html"); echo $header; ?>
 
     <!-- ######### CONTENT #########-->
     <div><a href="harver-angol.html"><img src="azaszlo.png" alt="Switch to English" title="Switch to English" class="zaszlok"></a></div>
