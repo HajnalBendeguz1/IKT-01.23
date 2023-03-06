@@ -84,7 +84,7 @@ a:hover {
 </head>
 <body>
 	<!-- ######### HEADER ######### -->
-	<?php $header = file_get_contents("./header.html"); echo $header; ?>
+	<?php $header = file_get_contents("./header-angol.html"); echo $header; ?>
 	<!-- ######### HEADER ######### -->
 	<a href="ftp-sftp.php"><img src="mzaszlo.png" alt="Magyar" title="Magyar" class="zaszlok"></a>
 	<h1>FTP</h1>
