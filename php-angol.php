@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
+	<link rel="stylesheet" href="zaszlok.css">
 	<title>PHP Webpage</title>
 	<style>
 		body{
@@ -91,6 +92,7 @@
 </head>
 <body>
 <?php $header = file_get_contents("./header-angol.html"); echo $header; ?>
+	<div><a href="php.php"><img src="mzaszlo.png" alt="Magyar" title="Magyar" class="zaszlok"></a></div>
 	<h1 class="overlay h1">PHP Webpage</h1>
 	<p class="overlay p">PHP (Hypertext Preprocessor) is a server-side scripting language that is used to create dynamic web pages. It is one of the most popular programming languages used for web development.</p>
 	<p class="overlay p">PHP code is executed on the server and the resulting HTML output is sent to the client's web browser. This allows for dynamic content to be generated based on user input or other variables.</p>

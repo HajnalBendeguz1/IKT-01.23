@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
+	<link rel="stylesheet" href="zaszlok.css">
 	<meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
 	<meta charset="UTF-8">
 	<title>FTP and SFTP</title>
@@ -77,17 +78,21 @@ a:hover {
     }
 }
 	</style>
+	<script>
+
+	</script>
 </head>
 <body>
 	<!-- ######### HEADER ######### -->
 	<?php $header = file_get_contents("./header.html"); echo $header; ?>
 	<!-- ######### HEADER ######### -->
-	<h2>FTP</h2>
+	<a href="ftp-sftp-angol.php"><img src="azaszlo.png" alt="English" title="English" class="zaszlok"></a>
+	<h1>FTP</h1>
 	<p>A File Transfer Protocol, vagy rövid nevén FTP TCP/IP hálózatokon mint amilyen az internet is történő állományátvitelre szolgáló szabvány.
         Az FTP kapcsolat ügyfél/kiszolgáló alapú, vagyis szükség van egy kiszolgáló- (=szerver) és egy ügyfélprogramra (=kliens). Elterjedt protokoll, a legtöbb modern operációs rendszerhez létezik FTP-szerver és kliens program, sok webböngésző is képes FTP-kliensként működni.
         Az FTP protokoll nem támogat titkosított autentikációt (felhasználó-azonosítást), így nem megbízható hálózaton való használata veszélyes lehet. Ezt küszöböli ki SSL/TLS protokollokkal az FTPS.</p>
 	<img src="ftpkep.png" alt="FTP" class="container">
-	<h2>SFTP</h2>
+	<h1>SFTP</h1>
 	<p>A számítástechnikában az SSH fájlátviteli protokoll (más néven Secure File Transfer Protocol vagy SFTP) egy olyan hálózati protokoll, amely fájlelérést, fájlátvitelt és fájlkezelést biztosít bármilyen megbízható adatfolyamon keresztül. Az Internet Engineering Task Force (IETF) tervezte a Secure Shell protokoll (SSH) 2.0 verziójának kiterjesztéseként, hogy biztonságos fájlátviteli képességeket biztosítson. Az IETF internetes tervezetében az áll, hogy bár ez a protokoll az SSH-2 protokoll kontextusában kerül leírásra, számos különböző alkalmazásban használható, például biztonságos fájlátvitelre a Transport Layer Security (TLS) protokollon keresztül és a VPN-alkalmazásokban a kezelési információk átvitelére.
         Ez a protokoll feltételezi, hogy biztonságos csatornán, például SSH-n keresztül fut, hogy a kiszolgáló már hitelesítette az ügyfelet, és hogy az ügyfél felhasználójának személyazonossága a protokoll számára elérhető.
         Az SFTP kliens extra képességei közé tartozik a megszakadt átvitel folytatása, a könyvtárak listázása és a távoli fájlok eltávolítása.
@@ -96,7 +101,7 @@ a:hover {
         Maga a protokoll nem biztosítja a hitelesítést és a biztonságot; elvárja, hogy az alapul szolgáló protokoll biztosítsa ezt. Az SFTP-t leggyakrabban az SSH protokoll 2-es verziójú implementációinak alrendszereként használják. Lehetséges azonban SSH-1 protokollon vagy más adatfolyamokon keresztül is futtatni.. Az SSH-1 kiszolgálóhoz csatlakozni kívánó SFTP-kliensnek ismernie kell az SFTP-kiszolgáló binárisának elérési útvonalát a kiszolgálói oldalon.
         A feltöltött fájlokat alapvető attribútumaikkal, például időbélyegekkel lehet társítani. Ez előnyt jelent az általános FTP protokollal szemben.</p>
 	<img src="sftpkep.png" alt="SFTP" class="container">
-	<h2>Fő külömbségek</h2>
+	<h1>Fő külömbségek</h1>
 	<p>Bár mind az FTP-t, mind az SFTP-t fájlátvitelre használják, van köztük néhány alapvető különbség:</p>
 	<ul>
 		<li>Az FTP nem biztonságos, és az adatokat tiszta szövegben továbbítja, míg az SFTP titkosítást használ az adatátvitel biztonsága érdekében.</li>

@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
+	<link rel="stylesheet" href="zaszlok.css">
 	<title>PHP Weblap</title>
 	<style>
 		body{
@@ -90,6 +91,7 @@
 </head>
 <body>
 <?php $header = file_get_contents("./header.html"); echo $header; ?>
+	<div><a href="php-angol.php"><img src="azaszlo.png" alt="English" title="English" class="zaszlok"></a></div>
 	<h1 class="overlay h1">PHP Weblap</h1>
 	<p class="overlay p">A PHP (Hypertext Preprocessor) egy szerveroldali szkriptnyelv, amelyet dinamikus weboldalak létrehozására használnak. Ez az egyik legnépszerűbb programozási nyelv, amelyet webfejlesztéshez használnak.</p>
 	<p class="overlay p">A PHP kód lefut a szerveren, és az eredményül kapott HTML kimenet elküldésre kerül a kliens webböngészőjébe. Ez lehetővé teszi a dinamikus tartalom generálását a felhasználói bevitel vagy más változók alapján.</p>
