@@ -41,7 +41,15 @@
     font-family: Arial, sans-serif;
     text-shadow: 2px 2px 10px black;
   }
-    </style>
+  body{
+      font-family: Arial, sans-serif;
+			margin: 0;
+			padding: 0;
+        }
+        body{
+            background: linear-gradient(to left, #ff0000, #000000);
+        }
+  </style>
   </head>
   <body>
   <?php $header = file_get_contents("./header.html"); echo $header; ?>

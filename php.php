@@ -13,7 +13,6 @@
         }
         
 		h1 {
-            color: #a5a5ff;
 			color: #0080ff;
 			font-size: 48px;
 			margin-top: 50px;
