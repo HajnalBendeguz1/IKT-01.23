@@ -78,4 +78,8 @@
     </div>
     <div class="div1">
       <h2>
-        Helló, mi vagyunk a … nevű cég alapítói. Másodállásban a Székesfehérvári SZC Széchenyi István Műszaki Technikumban tanulunk, valamint gyakorlaton vagyunk a Harmannál, mint rendszerüzemeltetők. Cégünk különböző komplex szimulációkkal foglalkozik, tudományos kutatásokat végez asztronómiai entitásokról (pl. Szupernóvák, Nebulák). Bár meglehetősen kevés emberrel dolgozunk, nagyon hatékonyak vagyunk. Kiegészítjük egymás munkáját, segítünk egymásnak, közösen oldjuk meg a problémákat.</h2>
+        Helló, mi vagyunk a … nevű cég alapítói. Másodállásban a Székesfehérvári SZC Széchenyi István Műszaki Technikumban tanulunk, valamint gyakorlaton vagyunk a Harmannál, mint rendszerüzemeltetők. Cégünk különböző komplex szimulációkkal foglalkozik, tudományos kutatásokat végez asztronómiai entitásokról (pl. Szupernóvák, Nebulák). Bár meglehetősen kevés emberrel dolgozunk, nagyon hatékonyak vagyunk. Kiegészítjük egymás munkáját, segítünk egymásnak, közösen oldjuk meg a problémákat.
+      </h2>
+    </div>
+  </body>
+</html>
