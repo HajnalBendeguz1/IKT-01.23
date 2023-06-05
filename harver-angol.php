@@ -15,7 +15,7 @@
     <!-- ######### HEADER ######### -->
 
     <!-- ######### CONTENT #########-->
-    <div><a href="harver.html"><img src="mzaszlo.png" alt="Switch to Hungarian" title="Switch to Hungarian" class="zaszlok"></a></div>
+    <div><a href="harver.php"><img src="mzaszlo.png" alt="Switch to Hungarian" title="Switch to Hungarian" class="zaszlok"></a></div>
     <div id="content">
         <h1 align="center">Hardware Requirements</h1>
         <h2 align="left">System specification for Employees</h2>

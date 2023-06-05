@@ -13,7 +13,7 @@
 <?php $header = file_get_contents("./header.html"); echo $header; ?>
 
     <!-- ######### CONTENT #########-->
-    <div><a href="harver-angol.html"><img src="azaszlo.png" alt="Switch to English" title="Switch to English" class="zaszlok"></a></div>
+    <div><a href="harver-angol.php"><img src="azaszlo.png" alt="Switch to English" title="Switch to English" class="zaszlok"></a></div>
     <div id="content">
         <h1 align="center">Hardverkövetelmények</h1>
         <h2 align="left">Rendszerspecifikációk dolgozóknak</h2>

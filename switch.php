@@ -56,6 +56,7 @@
 </head>
 <body>
 <?php $header = file_get_contents("./header.html"); echo $header; ?>
+<div><a href="switch-angol.php"><img src="azaszlo.png" alt="English" title="English" class="zaszlok"></a></div>
   <h1 style="color: #1E90FF;">Cisco Switch összehasonlítás: 2950 és 2960</h1>
   
   <h2>Teljesítmény</h2>

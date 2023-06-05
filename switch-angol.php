@@ -56,6 +56,7 @@
 </head>
 <body>
 <?php $header = file_get_contents("./header-angol.html"); echo $header; ?>
+<div><a href="switch.php"><img src="mzaszlo.png" alt="Switch to Hungarian" title="Switch to Hungarian" class="zaszlok"></a></div>
   <h1 style="color: #1E90FF;">Cisco Switch Comparison: 2950 vs 2960</h1>
   
   <h2>Performance</h2>
