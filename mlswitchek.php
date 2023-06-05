@@ -4,6 +4,7 @@
 	<meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
 	<meta charset="UTF-8">
 	<title>Cisco 3560 vs 3650 Switch Összehasonlitás</title>
+	<link rel="stylesheet" href="zaszlok.css">
 	<style>
 		body {
 			margin: 0;
@@ -105,6 +106,7 @@
     <!-- ######### HEADER ######### -->
     <?php $header = file_get_contents("./header.html"); echo $header; ?>
     <!-- ######### HEADER ######### -->
+	<div><a href="mlswitch-angol.php"><img src="azaszlo.png" alt="English" title="English" class="zaszlok"></a></div>
 	<h1>Cisco 3560 vs 3650 Switch Összehasonlitás</h1>
 	<table>
 		<tr>
