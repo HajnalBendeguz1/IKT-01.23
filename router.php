@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Router Comparison</title>
+    <title>Router összehasonlítás</title>
     <link rel="stylesheet" href="zaszlok.css">
     <style>
         body {
@@ -49,56 +49,55 @@
     </style>
 </head>
 <body>
-<?php $header = file_get_contents("./header-angol.html"); echo $header;?>
-<div><a href="router.php"><img src="mzaszlo.png" alt="Magyar" title="Magyar" class="zaszlok"></a></div>
-    <h1>Router Comparison</h1>
+<?php $header = file_get_contents("./header.html"); echo $header;?>
+<div><a href="router-angol.php"><img src="azaszlo.png" alt="English" title="English" class="zaszlok"></a></div>
+    <h1>Router összehasonlítás</h1>
     <table>
         <tr>
-            <th>Features</th>
+            <th>Jellemzők</th>
             <th>Cisco 1841</th>
             <th>Cisco 1941</th>
         </tr>
         <tr>
-            <td>Release Date</td>
+            <td>Kiadás dátuma</td>
             <td>2004</td>
             <td>2009</td>
         </tr>
         <tr>
-            <td>Performance</td>
-            <td>Lower</td>
-            <td class="highlight">Higher</td>
+            <td>Teljesítmény</td>
+            <td>Alacsonyabb</td>
+            <td class="highlight">Magasabb</td>
         </tr>
         <tr>
-            <td>Interfaces</td>
-            <td>Limited options</td>
-            <td class="highlight">More options</td>
+            <td>Interfészek</td>
+            <td>Korlátozott lehetőségek</td>
+            <td class="highlight">Több lehetőség</td>
         </tr>
         <tr>
-            <td>Security Features</td>
-            <td>Basic</td>
-            <td class="highlight">Advanced</td>
+            <td>Biztonsági funkciók</td>
+            <td>Alap</td>
+            <td class="highlight">Fejlettebb</td>
         </tr>
         <tr>
-            <td>Routing Protocols</td>
-            <td>Wide range</td>
-            <td class="highlight">Possibly more advanced</td>
+            <td>Útvonalválasztási protokollok</td>
+            <td>Széles választék</td>
+            <td class="highlight">Lehetőség szerint fejlettebb</td>
         </tr>
         <tr>
-            <td>Software Support</td>
-            <td>Shorter</td>
-            <td class="highlight">Longer</td>
+            <td>Szoftver támogatás</td>
+            <td>Rövidebb</td>
+            <td class="highlight">Hosszabb</td>
         </tr>
         <tr>
-            <td>Price</td>
-            <td>Affordable</td>
-            <td class="highlight">Expensive</td>
+            <td>Ár</td>
+            <td>Megfizethető</td>
+            <td class="highlight">Drága</td>
         </tr>
         <tr>
             <td></td>
             <td><img src="1941.jpg" alt="Cisco 1941 Router"></td>
             <td><img src="1841.png" alt="Cisco 1841 Router"></td>
         </tr>
-        
-    </table>
+</table>
 </body>
 </html>
