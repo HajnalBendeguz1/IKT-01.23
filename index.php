@@ -72,10 +72,6 @@ h2 {
         <img src="a.png" alt="karbantartás" title="karbantartás" class="img">
       </a>
     </div>
-    <div class="division">
-      <a href="tervezés.php">
-        <img src="terv.png" alt="tervrajz" title="tervrajz" class="img">
-      </a>
     </div>
     <div >
       <h2>

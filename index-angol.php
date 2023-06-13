@@ -74,11 +74,6 @@ h2 {
         <img src="a.png" alt="maintenance" title="maintenance" class="img">
       </a>
     </div>
-    <div class="division">
-      <a href="tervezés-angol.html">
-        <img src="terv.png" alt="plan" title="plan" class="img">
-      </a>
-    </div>
     <div>
       <h2>
         Hello, we are the founders of .... We study part-time at the Széchenyi István Székesfehérvár SZC Széchenyi István Technical Technical College and we are interns at Harman as system operators. Our company deals with various complex simulations, conducting scientific research on astronomical entities (e.g. Supernovae, Nebulae). Although we work with rather few people, we are very efficient. We complement each other's work, we help each other, we solve problems together.</h2>
