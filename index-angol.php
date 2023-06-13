@@ -50,27 +50,27 @@ h2 {
   <!-- ######### HEADER ######### -->
     <div><a href="index.php"><img src="mzaszlo.png" alt="Magyar" title="Magyar" class="zaszlok"></a></div>
     <div class="division">
-      <a href="információ angol.html">
+      <a href="információ angol.php">
         <img src="d.jpeg" alt="information gathering" title="information gathering" class="img">
       </a>
     </div>
     <div class="division">
-      <a href="harver-angol.html">
+      <a href="harver-angol.php">
         <img src="retzui.jpg" alt="hardver" title="hardver" class="img">
       </a>
     </div>
     <div class="division">
-      <a href="topológia-angol.html">
+      <a href="topológia-angol.php">
         <img src="topology1.png" alt="topology" title="topology" class="img">
       </a>
     </div>
     <div class="division">
-      <a href="dokumentáció-angol.html">
+      <a href="dokumentáció-angol.php">
         <img src="unnamed.png" alt="documentation" title="documentation" class="img">
       </a>
     </div>
     <div class="division">
-      <a href="karbantartás-angol.html">
+      <a href="karbantartás-angol.php">
         <img src="a.png" alt="maintenance" title="maintenance" class="img">
       </a>
     </div>

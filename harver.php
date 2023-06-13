@@ -90,7 +90,7 @@
                     </tr>
                     <tr>
                         <td rowspan="3" class="alkatresz-nev">Szerverek</td>
-                        <td>FTP Server 100TB SAS háttértárral<br>128GB 2400MHz ram<br>128TB 12Gbps SAS Tárhely (hardveres Raidben)<br>Xeon E5-2673 V4</td> <!--https://www.bargainhardware.co.uk/dell-poweredge-r630-8-sff-configure-to-order-->
+                        <td>FTP Server 100TB SAS háttértárral<br>128GB 2400MHz ram<br>128TB 12Gbps SAS Tárhely (hardveres Raidben)<br>Xeon E5-2673 V4<br>AMD EPYC High Performance Computing Server SAS/M.2 meghajtókkal 16/32x DIMMs 10GBe port, minimum 2GPU</td> <!--https://www.bargainhardware.co.uk/dell-poweredge-r630-8-sff-configure-to-order-->
                     </tr>
                     <tr>
                         <td>Windows vagy linux szerver DHCP, DNS és WEB Localhosting szolgáltatásra</td>

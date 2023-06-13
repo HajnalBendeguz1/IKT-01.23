@@ -89,7 +89,7 @@
                 </tr>
                 <tr>
                     <td rowspan="3" class="component-name">Servers</td>
-                    <td>FTP Server with 10Gbps Bandwidth<br>128GB 2400MHz RAM<br>128TB 12Gbps SAS Storage (hardware RAID)<br>Xeon E5-2673 V4</td> <!--https://www.bargainhardware.co.uk/dell-poweredge-r630-8-sff-configure-to-order-->
+                    <td>FTP Server with 10Gbps Bandwidth<br>128GB 2400MHz RAM<br>128TB 12Gbps SAS Storage (hardware RAID)<br>Xeon E5-2673 V4<br>AMD EPYC High Performance Computing Server with SAS/M.2 drives 16/32x DIMMs 10GBe port, minimum 2GPU</td> <!--https://www.bargainhardware.co.uk/dell-poweredge-r630-8-sff-configure-to-order-->
                 </tr>
                 <tr>
                     <td>Server with HTTP, DNS, and DHCP Services</td>
