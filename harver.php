@@ -26,7 +26,7 @@
                 <td><table id="personal-table" class="tables">
                     <tr>
                         <td class="alkatresz-nev">Gépház</td>
-                        <td class="spec">Be Quiet! Silent Base 802</td>
+                        <td class="spec">Cooler Master MasterCase H500P Mesh + 2x Noctua NF-A20 PWM</td>
                     </tr>
                     <tr>
                         <td class="alkatresz-nev">Ventillátorok</td>
@@ -34,11 +34,11 @@
                     </tr>
                     <tr>
                         <td class="alkatresz-nev">Processzor-hűtő</td>
-                        <td class="spec">Noctua NH-U14S TR4-SP3</td>
+                        <td class="spec">NH-D15 NM-AM4 felfogatással</td>
                     </tr>
                     <tr>
                         <td class="alkatresz-nev">Alaplap</td>
-                        <td class="spec">ASRock WRX80-SU8-IPMI</td>
+                        <td class="spec">ASRock WRX80 Creator R2.0</td>
                     </tr>
                     <tr>
                         <td class="alkatresz-nev">Processzor</td>
@@ -46,19 +46,27 @@
                     </tr>
                     <tr>
                         <td class="alkatresz-nev">Memória</td>
-                        <td class="spec">Corsair Vengance LPX 4x32GB 3200MHz</td>
+                        <td class="spec">G.SKILL Ripjaws V 64GB (4x16GB) -  DDR4 4400MHz F4-4400C19D-32GVK x2</td>
                     </tr>
                     <tr>
                         <td class="alkatresz-nev">Grafikuskártya</td>
-                        <td class="spec">Nvidia RTX 6000 ADA Gen.</td>
+                        <td class="spec">RTX A6000 Ada</td>
                     </tr>
                     <tr>
                         <td class="alkatresz-nev">Tárhely</td>
-                        <td class="spec">Samsung 980 PRO NVMe 2TB<br>Seagate Exos 8TB HDD</td>
+                        <td class="spec">Samsung 970 EVO Plus 2TB x 5</td>
                     </tr>
                     <tr>
                         <td class="alkatresz-nev">Tápegység</td>
                         <td class="spec">Corsair HX1200 1200W Platinum per gép<br>és 2db Legrand DAKER DK PLUS 5000VA UPS</td>
+                    </tr>
+                    <tr>
+                        <td>Billentyűzet</td>
+                        <td>Redragon Kumara 2 (K552-2_BROWN_HU)</td>
+                    </tr>
+                    <tr>
+                        <td>Egér</td>
+                        <td>SteelSeries Arctis 7p+</td>
                     </tr>
                 </table></td>
             <tr>
@@ -74,11 +82,11 @@
                 <td><table id="network-table" class="tables">
                     <tr>
                         <td class="alkatresz-nev">Routerek</td>
-                        <td>3db Cisco ISR 2911</td>
+                        <td>4db Cisco C891F-K9 Router</td>
                     </tr>
                     <tr>
                         <td class="alkatresz-nev">Switchek</td>
-                        <td>5db Cisco 2960</td>
+                        <td>2db Cisco CBS220-24P-4G-EU</td>
                     </tr>
                     <tr>
                         <td rowspan="3" class="alkatresz-nev">Szerverek</td>

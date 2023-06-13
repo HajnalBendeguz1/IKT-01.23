@@ -33,8 +33,8 @@
     <?php $header = file_get_contents("./header.html"); echo $header; ?>
   <!-- ######### HEADER ######### -->
     <div><a href="dokumentáció-angol.php"><img src="azaszlo.png" alt="English" title="English" class="zaszlok"></a></div>
-    <h1>Dokumentáció és fizikai felépítés</h1>
-    <p>Word szövegszerkesztőt használok a dokumentáláshoz. Az eszközigényt Excel táblázat készítésével határoztam meg. Az eszközöket én szereztem be és telepítettem</p>  
-    <img src="zsoldos.png" alt="Zsoldos kép">
+    <h1>Dokumentáció</h1>
+    <p></p>  
+    
 </body>
 </html>
