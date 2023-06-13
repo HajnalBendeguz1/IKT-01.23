@@ -90,13 +90,25 @@
                     </tr>
                     <tr>
                         <td rowspan="3" class="alkatresz-nev">Szerverek</td>
-                        <td>FTP szerver 10Gbps Sávszélességgel<br>128GB 2400MHz ram<br>128TB 12Gbps SAS Tárhely (hardveres Raidben)<br>Xeon E5-2673 V4</td> <!--https://www.bargainhardware.co.uk/dell-poweredge-r630-8-sff-configure-to-order-->
+                        <td>FTP Server 100TB SAS háttértárral<br>128GB 2400MHz ram<br>128TB 12Gbps SAS Tárhely (hardveres Raidben)<br>Xeon E5-2673 V4</td> <!--https://www.bargainhardware.co.uk/dell-poweredge-r630-8-sff-configure-to-order-->
                     </tr>
                     <tr>
-                        <td>Szerver HTTP, DNS és DHCP Szolgáltatásokkal</td>
+                        <td>Windows vagy linux szerver DHCP, DNS és WEB Localhosting szolgáltatásra</td>
                     </tr>
                     <tr>
                         <td>HPC Szerver (Konzultáció szükséges)</td>
+                    </tr>
+                    <tr>
+                        <td>Multi-layer switchek</td>
+                        <td>4db Cisco C9200L-48T-4G-E</td>
+                    </tr>
+                    <tr>
+                        <td>Nyomtatók</td>
+                        <td>HP LaserJet Enterprise M652dn (J7Z99A)</td>
+                    </tr>
+                    <tr>
+                        <td>Soho router</td>
+                        <td>ASUS ZenWiFi Pro XT12 (1-Pack) Router</td>
                     </tr>
                     <tr>
                         <td>vezetékek</td>

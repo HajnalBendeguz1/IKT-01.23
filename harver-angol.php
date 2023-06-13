@@ -10,103 +10,117 @@
     <link rel="stylesheet" href="zaszlok.css">
 </head>
 <body>
-    <!-- ######### HEADER ######### --> 
-    <?php $header = file_get_contents("./header-angol.html"); echo $header; ?>
-    <!-- ######### HEADER ######### -->
-
-    <!-- ######### CONTENT #########-->
-    <div><a href="harver.php"><img src="mzaszlo.png" alt="Switch to Hungarian" title="Switch to Hungarian" class="zaszlok"></a></div>
-    <div id="content">
-        <h1 align="center">Hardware Requirements</h1>
-        <h2 align="left">System specification for Employees</h2>
-        <p>All the Hardware Requirements are specified on this page, which includes everything from the worstations and servers to the bridge router.</p>
-        <div style="height: 5vh;" class="empty-space"></div>
-        <p>A dolgozóknak a lehető legfolyékonyabb munkavégzés érdekében high-end rendszer lett speifikálva, amely alább látható:</p>
-        <p>In order to achieve smooth work a high-end system was specified, which can be seen below:</p>
-        <table class="container-table">
-            <tr>
-                <td><p><img src="./be quiet 802.png" alt="worket pc case" class="img-restrict"></p></td>
-                <td><table id="personal-table" class="tables">
-                    <tr>
-                        <td class="alkatresz-nev">Case</td>
-                        <td class="spec">Be Quiet! Silent Base 802</td>
-                    </tr>
-                    <tr>
-                        <td class="alkatresz-nev">Fans</td>
-                        <td class="spec">3db Noctua NF-A14 PWM per Ház</td>
-                    </tr>
-                    <tr>
-                        <td class="alkatresz-nev">CPU Cooler</td>
-                        <td class="spec">Noctua NH-U14S TR4-SP3<br>or NH-D15 with a TR4 mount</td>
-                    </tr>
-                    <tr>
-                        <td class="alkatresz-nev">Motherboard</td>
-                        <td class="spec">ASRock WRX80-SU8-IPMI</td>
-                    </tr>
-                    <tr>
-                        <td class="alkatresz-nev">CPU</td>
-                        <td class="spec">Ryzen Threadripper PRO 5965WX</td>
-                    </tr>
-                    <tr>
-                        <td class="alkatresz-nev">Memory</td>
-                        <td class="spec">Corsair Vengance LPX 4x32GB 3200MHz</td>
-                    </tr>
-                    <tr>
-                        <td class="alkatresz-nev">GPU</td>
-                        <td class="spec">Nvidia RTX 6000 ADA Gen.</td>
-                    </tr>
-                    <tr>
-                        <td class="alkatresz-nev">Storage</td>
-                        <td class="spec">Samsung 980 PRO NVMe 2TB<br>Seagate Exos 8TB HDD</td>
-                    </tr>
-                    <tr>
-                        <td class="alkatresz-nev">Power Supply</td>
-                        <td class="spec">Corsair HX1200 1200W Platinum per gép<br>és 2db Legrand DAKER DK PLUS 5000VA UPS</td>
-                    </tr>
-                </table></td>
-            <tr>
-                <td colspan="2"><p id="spec-paragraph-restrict">Az alkatrészek úgy lettek összeállítva, hogy a lehető legnagyobb teljesítményt nyújtsák minimális zajszint mellett. Mivel az irodában 10+ gép lesz egymás közelében, fontosnak ítéltük, hogy a gépekből származó zaj minimális legyen.</p></td></tr>
-                <td colspan="2"><p id="spec-paragraph-restrict">The parts were chosen with low noise levels in mind, even under heavy load owing to the fact that there will be 10+ workstations in the office.</p></td></tr>
-            </tr>
-        </table>
-        <div style="height: 5vh;" class="empty-space"></div>
-        <h2 align="left">Network Equipment list</h2>
-        <p>Az alábbi eszközök az egész hálózatot kiteszik. A hálózat 3 subnetre van osztva és redundásan összekötve. A szerverszobának hűtése nem lett specifikálva a szoba látta híján.</p>
-        <p>The network consinsts from the devices seen below. The network is split into 3 subnets and is connected with redundancy. The cooling of the server room wasn't specified yet due to missing knowledge of the properties of the server room </p>
-        <table class="container-table">
-            <tr>
-                <td><p><img src="./ftp-server.png" alt="dell-poweredge-r630 szerver" class="img-restrict"></p></td>
-                <td><table id="network-table" class="tables">
-                    <tr>
-                        <td class="alkatresz-nev">Routers</td>
-                        <td>3db Cisco ISR 2911</td>
-                    </tr>
-                    <tr>
-                        <td class="alkatresz-nev">Switches</td>
-                        <td>5db Cisco 2960</td>
-                    </tr>
-                    <tr>
-                        <td rowspan="3" class="alkatresz-nev">Servers</td>
-                        <td>FTP server with 10Gbps Bandwidth<br>128GB 2400MHz memory<br>128TB 12Gbps SAS Tárhely (Hardware Raid)<br>Xeon E5-2673 V4</td> <!--https://www.bargainhardware.co.uk/dell-poweredge-r630-8-sff-configure-to-order-->
-                    </tr>
-                    <tr>
-                        <td>Server with HTTP, DNS and DHCP services</td>
-                    </tr>
-                    <tr>
-                        <td>HPC Server (consultation required)</td>
-                    </tr>
-                    <tr>
-                        <td>Cables</td>
-                        <td>Depends on the size and layout of the office</td>
-                    </tr>
-                </table></td>
-            </tr>
-        </table>
-        
-        <div style="height: 5vh;" class="empty-space"></div>
-        <p>
-        </p>
-    </div>
-    <!-- ######### CONTENT ######### -->
+<?php $header = file_get_contents("./header.html"); echo $header; ?>
+<!-- ######### CONTENT #########-->
+<div><a href="harver.php"><img src="mzaszlo.png" alt="Magyar" title="Magyar" class="zaszlok"></a></div>
+<div id="content">
+    <h1 align="center">Hardware Requirements</h1>
+    <h2 align="left">System Specifications for Employees</h2>
+    <p>This page specifies the hardware requirements planned for the company so far, which includes everything from employees' computers and servers to the bridge router.</p>
+    <div style="height: 5vh;" class="empty-space"></div>
+    <p>For the smoothest possible workflow for employees, a high-end system has been specified, which is shown below:</p>
+    <table class="container-table">
+        <tr>
+            <td><p><img src="./be quiet 802.png" alt="worket pc case" class="img-restrict"></p></td>
+            <td><table id="personal-table" class="tables">
+                <tr>
+                    <td class="component-name">Computer Case</td>
+                    <td class="spec">Cooler Master MasterCase H500P Mesh + 2x Noctua NF-A20 PWM</td>
+                </tr>
+                <tr>
+                    <td class="component-name">Fans</td>
+                    <td class="spec">3x Noctua NF-A14 PWM per Case</td>
+                </tr>
+                <tr>
+                    <td class="component-name">CPU Cooler</td>
+                    <td class="spec">NH-D15 NM-AM4 with mounting kit</td>
+                </tr>
+                <tr>
+                    <td class="component-name">Motherboard</td>
+                    <td class="spec">ASRock WRX80 Creator R2.0</td>
+                </tr>
+                <tr>
+                    <td class="component-name">Processor</td>
+                    <td class="spec">Ryzen Threadripper PRO 5965WX</td>
+                </tr>
+                <tr>
+                    <td class="component-name">Memory</td>
+                    <td class="spec">G.SKILL Ripjaws V 64GB (4x16GB) - DDR4 4400MHz F4-4400C19D-32GVK x2</td>
+                </tr>
+                <tr>
+                    <td class="component-name">Graphics Card</td>
+                    <td class="spec">RTX A6000 Ada</td>
+                </tr>
+                <tr>
+                    <td class="component-name">Storage</td>
+                    <td class="spec">Samsung 970 EVO Plus 2TB x 5</td>
+                </tr>
+                <tr>
+                    <td class="component-name">Power Supply</td>
+                    <td class="spec">Corsair HX1200 1200W Platinum per PC<br>and 2x Legrand DAKER DK PLUS 5000VA UPS</td>
+                </tr>
+                <tr>
+                    <td>Keyboard</td>
+                    <td>Redragon Kumara 2 (K552-2_BROWN_HU)</td>
+                </tr>
+                <tr>
+                    <td>Mouse</td>
+                    <td>SteelSeries Arctis 7p+</td>
+                </tr>
+            </table></td>
+        <tr>
+            <td colspan="2"><p id="spec-paragraph-restrict">The components have been assembled to provide the highest performance with minimal noise. Since there will be 10+ computers in close proximity in the office, it was considered important to minimize the noise generated by the machines.</p></td></tr>
+        </tr>
+    </table>
+    <div style="height: 5vh;" class="empty-space"></div>
+    <h2 align="left">List of Network Devices</h2>
+    <p>The following devices constitute the entire network. The network is divided into 3 subnets and interconnected redundantly. Cooling for the server room has not been specified due to lack of information about the room.</p>
+    <table class="container-table">
+        <tr>
+            <td><p><img src="./ftp-server.png" alt="dell-poweredge-r630 server" class="img-restrict"></p></td>
+            <td><table id="network-table" class="tables">
+                <tr>
+                    <td class="component-name">Routers</td>
+                    <td>4x Cisco C891F-K9 Router</td>
+                </tr>
+                <tr>
+                    <td class="component-name">Switches</td>
+                    <td>2x Cisco CBS220-24P-4G-EU</td>
+                </tr>
+                <tr>
+                    <td rowspan="3" class="component-name">Servers</td>
+                    <td>FTP Server with 10Gbps Bandwidth<br>128GB 2400MHz RAM<br>128TB 12Gbps SAS Storage (hardware RAID)<br>Xeon E5-2673 V4</td> <!--https://www.bargainhardware.co.uk/dell-poweredge-r630-8-sff-configure-to-order-->
+                </tr>
+                <tr>
+                    <td>Server with HTTP, DNS, and DHCP Services</td>
+                </tr>
+                <tr>
+                    <td>HPC Server (Consultation required)</td>
+                </tr>
+                <tr>
+                    <td>Multi-layer switches</td>
+                    <td>4x Cisco C9200L-48T-4G-E</td>
+                </tr>
+                <tr>
+                    <td>Printers</td>
+                    <td>HP LaserJet Enterprise M652dn (J7Z99A)</td>
+                </tr>
+                <tr>
+                    <td>Soho router</td>
+                    <td>ASUS ZenWiFi Pro XT12 (1-Pack) Router</td>
+                </tr>
+                <tr>
+                    <td>Cables</td>
+                    <td>Dependent on the area</td>
+                </tr>
+            </table></td>
+        </tr>
+    </table>
+    
+    <div style="height: 5vh;" class="empty-space"></div>
+    <p>
+    </p>
+</div>
+<!-- ######### CONTENT ######### -->
 </body>
 </html>
